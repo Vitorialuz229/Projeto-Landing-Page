@@ -1,4 +1,4 @@
-# Challenge 01: Landing Page with HTML and CSS
+# Challenge 01: Landing Page with HTML and CSS - EN | PT
 Welcome to Challenge 01 of the DIO CSS Trail! In this challenge, I had the opportunity to build my first Landing Page using HTML and CSS, applying the fundamentals of the styling language, in addition to working with the relative and absolute measurement units that I learned along the way.
 
 # Final result
@@ -33,7 +33,30 @@ To assist in my development, I used this prototype in Figma, check it out.
 <br>
 <br>
 <br>
-# Desafio 01: Landing Page com HTML e CSS
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+# Desafio 01: Landing Page com HTML e CSS - PT | EN
 Bem-vindo(a) ao Desafio 01 da Trilha de CSS da DIO! Neste desafio, tive a oportunidade de construir minha primeira Landing Page usando HTML e CSS, aplicando os fundamentos da linguagem de estilização, além de trabalhar com as unidades de medidas relativas e absolutas que aprendi ao longo da trilha.
 
 # Resultado Final
