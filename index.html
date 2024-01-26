@@ -1,59 +1,103 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="Styles/styles.css" />
-  <title>Trilha de CSS - DIO</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page GTA</title>
+    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/chalet">
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/fontes.css">
+    <link rel="shortcut icon" href="src/img/favicon.png" type="image/x-icon">
+    
 </head>
+
 <body>
-  <header class="banner">
-    <div class="banner-content">
-      <div class="logo">
-        <img src="assets/images/logo.png" title="Logotipo Trilha de CSS DIO" alt="Logotipo Trilha de CSS DIO">
-      </div>
-      <h1>Trilha de CSS da DIO</h1>
-      <p>A nova Trilha de CSS da DIO está disponível. Acesse já e aprenda do zero como desenvolver sites profissionais.</p>
-      <button>Quero me inscrever</button>
-    </div>
-  </header>
-  <main>
-    <section id="course-content">
-      <h2>O que vou aprender?</h2>
-      <p>
-        Temos 3 módulos recheados de conteúdos do básico ao avançado para que você aprenda a 
-        desenvolver sites profissionais utilizando somente HTML e CSS: sem nenhuma biblioteca ou framework a mais.
-      </p>
-      <div class="modules-list">
-        <div class="module">
-          <span>Módulo 01:</span> primeiros passos com CSS
+    <header class="cabecalho">
+        <div class="logo">
+            <img src="src\img\logo-rockstar.svg" alt="Logo Rockstar Games">
+            <hr>
+            <img src="./src/img/logo-gta.svg" alt="Logo GTA V">
         </div>
-        <div class="module">
-          <span>Módulo 02:</span> trabalhando com layouts no CSS
+        <nav>
+            <ul class="menu">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#comprar">Comprar</a>
+                </li>
+                <li>
+                    <a href="https://support.rockstargames.com/categories/200013306" 
+                       target="_blank">Suporte 
+                       <img src="./src/img/icone-link.svg" alt="Icone de Link de suporte"></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="home" id="home">
+        <img class="imagem-fundo" src="./src/img/bg-main.png" alt="Rapaz de moletom laranja ao lado de um carro esportivo amarelo">
+        <div class="conteudo">
+            <div class="lista-de-jogos">
+                <img src="./src/img/logo-gta-v.svg" alt="Logo GTA V">
+                <img src="./src/img/logo-gta-online.svg" alt="Logo GTA Online"> 
+            </div>
+            <h1 class="titulo">Já disponíveis para Playstation 5 e Xbox Series XlS</h1>
+            <p class="texto">Experimente os fenômenos de entretenimento Grand Theft Auto V e GTA Online</p>
+            <a class="btn-comprar" href="#comprar">Comprar já</a>
         </div>
-        <div class="module">
-          <span>Módulo 03:</span> refinando os estilos CSS das nossas páginas
+    </main>
+    <section class="compre-ja" id="comprar">
+        <h2 class="titulo">Compre já </h2>
+        <div class="cartao">
+            <img class="capa-do-jogo" src="./src/img/gta5.jpg" alt="Capa do jogo GTA V">
+
+            <div class="informacoes">
+                <h3>Grand Theft Auto V</h3>
+                <p>Inclui <strong>modo história do GTA V</strong> e <strong>GTA Online</strong>
+                </p>
+                <ul class="plataformas">
+                    <li>
+                        <img src="./src/img/logo-ps5.svg" alt="Logo do Playstation 5">
+                    </li>
+                    <li>
+                        <img src="./src/img/logo-xbox-series-s.svg" alt="Logo Xbox series X|S">
+                    </li>
+                    <li>
+                        <img src="./src/img/logo-ps4.svg" alt="Logo do Playstation 4">
+                    </li>
+                    <li>
+                        <img src="./src/img/logo-xbox-one.svg" alt="Logo do Xbox One">
+                    </li>
+                    <li>
+                        <img src="./src/img/logo-pc.svg" alt="Logo PC">
+                    </li>
+                </ul>
+            </div>
+            <button class="btn-plataforma">
+                Selecione a plataforma
+                <ul class="plataformas">
+                    <li>
+                        <img src="./src/img/logo-ps5.svg" alt="Logo do Playstation 5">
+                    </li>
+                    <li>
+                        <img src="./src/img/logo-xbox-series-s.svg" alt="Logo Xbox series X|S">
+                    </li>
+                    <li>
+                        <img src="./src/img/logo-ps4.svg" alt="Logo do Playstation 4">
+                    </li>
+                    <li>
+                        <img src="./src/img/logo-xbox-one.svg" alt="Logo do Xbox One">
+                    </li>
+                    <li>
+                        <img src="./src/img/logo-pc.svg" alt="Logo PC">
+                    </li>
+                </ul>
+            </button>
         </div>
-      </div>
+
     </section>
-    <section id="transform-world">
-      <p>TRANSFORME O MUNDO COM A GENTE</p>
-    </section>
-    <section id="professional-challenges">
-      <h2>Evolua e encare novos desafios profissionais</h2>
-      <img src="assets/images/professional-challenges.png" title="Homem lendo depoimentos em um tablet" alt="Homem lendo depoimentos em um tablet">
-      <p>
-        Junte-se ao nosso ecossistema e transforme o mundo com a gente! Todos os dias dezenas de empresas 
-        acessam a nossa plataforma em busca dos talentos mais criativos, dinâmicos e colaborativos, 
-        além do conhecimento técnico. 
-        A nossa missão é te preparar para que você conecte-se com as melhores oportunidades.
-      </p>
-    </section>
-  </main>
-  <footer>
-    <img class="dio-logo" src="assets/images/dio-logo.png" title="Logotipo DIO com o texto make the change" alt="Logotipo DIO com o texto make the change">
-    <p>Acesse <a href="https://dio.me">dio.me</a> e se cadastre agora</p>
-  </footer>
 </body>
+
 </html>
